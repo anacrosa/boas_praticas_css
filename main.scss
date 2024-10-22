@@ -1,0 +1,34 @@
+.produto{
+    &_control{
+        max-width: 120px;
+        width: 250px;
+        margin: 56px auto;
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-column-gap: 1%;
+    }
+
+    &__imagem{
+        width:100px;
+        margin-bottom: 2px;
+        display: block;
+        margin-top: 0 auto 0;
+    }
+
+    &__nome{
+        font-size: 1.2em;
+        margin: 8px 0;
+        font-family: sans-serif;
+    }
+    
+    &__descricao{
+        color: rgb(247, 186, 32);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    &__em-destaque{
+        border: 2px solid gold;
+        padding: 8px;
+        background-color: #ffff42;
+    }
+}
